@@ -1,0 +1,16 @@
+.collapsible-header{
+    /* background-color: rgb(32, 39, 50); */
+    background-color: white;
+  }
+  
+  .collapsible-body {
+    border-radius: 8px;
+    font-family: 'Eurostile';
+    box-shadow: 7px 25px 50px rgb(99, 199, 201);
+  }
+  
+  
+  .collapsible-header:hover {
+    background-color: rgb(99, 199, 201);
+  }
+  
