@@ -98,37 +98,37 @@ bram814@bram814-linux:~/Descargas/frontend/frontend$  npm start
 **Paso 1:** Debe de ingeresar a http://localhost:3000/
 
 
-![APP1](/img/app/home.png)
+![APP1](/img/APP/home.png)
 
 **Paso 2:** Debe de registrarse.
 
-![APP2](/img/app/registro.png)
+![APP2](/img/APP/registro.png)
 
 
 **Paso 3:** Debe ingresar sus datos en los campos.
 
-![APP3](/img/app/ingreso_datos_registro.png)
+![APP3](/img/APP/ingreso_datos_registro.png)
 
 
 **Paso 4:** Al terminar de rellenar todos los campos, se procede a registrar al usuario.
 
-![APP4](/img/app/registrar.png)
+![APP4](/img/APP/registrar.png)
 
 
 **Paso 5:** Procedemos a ingresar a la aplicación.
 
-![APP5](/img/app/login.png)
+![APP5](/img/APP/login.png)
 
 **Paso 6:** Ingresamos todos los campos para el login.
 
 
-![APP6](/img/app/login_ingreso_datos.png)
+![APP6](/img/APP/login_ingreso_datos.png)
 
 
 **Paso 7:** Al terminar de rellenar todos los campos, se procede a ingresar.
 
 
-![APP7](/img/app/login_ingreso.png)
+![APP7](/img/APP/login_ingreso.png)
 
 ----
 
@@ -137,25 +137,25 @@ bram814@bram814-linux:~/Descargas/frontend/frontend$  npm start
 **Paso 1:** Vista general del Administrador (Productos).
 
 
-![APP8](/img/app/administrador.png)
+![APP8](/img/APP/administrador.png)
 
 
 **Paso 2:** En la parte de pestaña "Producto" tiene la posibilidad de poder agregar un producto, o incluso poder visualizarlo.
 
-![APP9](/img/app/adminsitrador_producto_agregar_visualizar.png)
+![APP9](/img/APP/adminsitrador_producto_agregar_visualizar.png)
 
 **Paso 3:** Vista general del Administrador (Pedidos).
 
 
-![APP10](/img/app/administrador_pedidos.png)
+![APP10](/img/APP/administrador_pedidos.png)
 
 **Paso 4:** En la parte de pestaña "Pedidos" tiene la posibilidad de poder aceptar o declinar algún pedido que realizo el susuario.
 
-![APP11](/img/app/administrador_pedidos_aceptar.png)
+![APP11](/img/APP/administrador_pedidos_aceptar.png)
 
 **Paso 5:** Salir de la sesión.
 
-![APP12](/img/app/administrador_logout.png)
+![APP12](/img/APP/administrador_logout.png)
 
 ----
 
@@ -163,22 +163,22 @@ bram814@bram814-linux:~/Descargas/frontend/frontend$  npm start
 
 **Paso 1:** Vistal general del Usuario.
 
-![APP13](/img/app/usuario.png)
+![APP13](/img/APP/usuario.png)
 
 
 **Paso 2:** En la pestaña de datos personales, es la encargada de mostrar el usuario que ha ingresado a la aplicación.
 
 
-![APP14](/img/app/usuario_datos_personales.png)
+![APP14](/img/APP/usuario_datos_personales.png)
 
 **Paso 3:** En la pestaña de realizar pedidos, será la encargada de poder realizar pedidos.
 
-![APP15](/img/app/usuario_datos_personales.png)
+![APP15](/img/APP/usuario_datos_personales.png)
 
 
 **Paso 3:** En la pestaña de realizar pedidos, será la encargada de poder seleccionar un produccto en existencia y poser realizar el pedido.
 
-![APP16](/img/app/usuario_realizar_pedidos.png)
+![APP16](/img/APP/usuario_realizar_pedidos.png)
 
 ----
 
@@ -186,7 +186,7 @@ bram814@bram814-linux:~/Descargas/frontend/frontend$  npm start
 
 El proyecto está desarrollado con React, a continuación se presenta la estrucutra del proyecto.
 
-![APP17](/img/app/estructura.png)
+![APP17](/img/APP/estructura.png)
 
 
 ----
@@ -194,9 +194,9 @@ El proyecto está desarrollado con React, a continuación se presenta la estrucu
 - Se crea una carpeta **api** que es la encargada de contener la conexión al backend
 
 
-![APP18](/img/app/api1.png)
+![APP18](/img/APP/api1.png)
 
-![APP19](/img/app/api2.png)
+![APP19](/img/APP/api2.png)
 
 
 ----
@@ -204,20 +204,20 @@ El proyecto está desarrollado con React, a continuación se presenta la estrucu
 - Se crea una carpeta **component** que es la encargada de tener toda la lógica de cada página (Administrador, usuario, widgets y dashboard), cada carpeta tiene una clase ***Tabs.js*** que es la encargada de realizar la lógica para cada módulo.
 
 
-![APP20](/img/app/componente.png)
+![APP20](/img/APP/componente.png)
 
 - Se crea una carpeta la carpeta **hoks, config y context** que son las encargadas de poder crear la authentificación del proyecto.
 
 
-![APP21](/img/app/hooks.png)
+![APP21](/img/APP/hooks.png)
 
 - Se crea carpeta **pages y routes** que es la encargada de renderizar los componentes del proyecto según la ruta que tengan cada úna.
 
 
-![APP22](/img/app/pages.png)
+![APP22](/img/APP/pages.png)
 
 - Por último tenemos la clase **App.js** que es la encarga de utilizar React-Router-Dom por medio del authcontext.
 
 
-![APP23](/img/app/react_routes.png)
+![APP23](/img/APP/react_routes.png)
 
