@@ -185,12 +185,40 @@ bram814@bram814-linux:~/Descargas/frontend/frontend$  npm start
 
 ## **MANUAL TÉCNICO**
 
-El proyecto está desarrollado con React, librerías a utilizar.
+El proyecto está desarrollado con React, a continuación se presenta la estrucutra del proyecto.
 
-```bash
-
-```
+![APP](/img/app/estructura.png)
 
 
+----
 
+- Se crea una carpeta **api** que es la encargada de contener la conexión al backend
+
+
+![APP](/img/app/api1.png)
+
+![APP](/img/app/api2.png)
+
+
+----
+
+- Se crea una carpeta **component** que es la encargada de tener toda la lógica de cada página (Administrador, usuario, widgets y dashboard), cada carpeta tiene una clase ***Tabs.js*** que es la encargada de realizar la lógica para cada módulo.
+
+
+![APP](/img/app/componente.png)
+
+- Se crea una carpeta la carpeta **hoks, config y context** que son las encargadas de poder crear la authentificación del proyecto.
+
+
+![APP](/img/app/hooks.png)
+
+- Se crea carpeta **pages y routes** que es la encargada de renderizar los componentes del proyecto según la ruta que tengan cada úna.
+
+
+![APP](/img/app/pages.png)
+
+- Por último tenemos la clase **App.js** que es la encarga de utilizar React-Router-Dom por medio del authcontext.
+
+
+![APP](/img/app/react_routes.png)
 
