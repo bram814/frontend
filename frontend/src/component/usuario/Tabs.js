@@ -37,7 +37,8 @@ const Tabs = () => {
                 <br /><br /><br /><br /><br />
                 <div className="row">
                     <div id="datosPersonales" className="col s10 m12">
-                        DATOS PERSONALES
+                        
+                    <h3 style={{ 'fontFamily': 'Courier New', 'color': 'black', 'fontSize': '24px', 'fontWeight': 'bold' }} align="center">DATOS PERSONALES</h3>
 
                         <div id="test0" className="col s10 m12">
                             <div className="row">

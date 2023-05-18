@@ -70,8 +70,10 @@ export default function Pedido() {
                                                             <div className="collapsible-header ul-vehicle"><i className="material-icons">receipt</i>Pedido: </div>
                                                             <div className="collapsible-body">
                                                                 <span>
-                                                                    <strong>Id de Reseña:</strong> <br /><br />
-                                                                    <strong>Descripción:</strong><br />
+                                                                    <strong>No. Pedido:</strong> <br /><br />
+                                                                    <strong>Usuario del Solicitante:</strong><br />
+                                                                    <strong>Nombre del Pedido:</strong><br />
+                                                                    <strong>Descripción del Pedido:</strong><br />
                                                                     {/* {i.resenia} */}
 
                                                                     <a class="btn-floating btn-large waves-effect waves-light green"><i class="material-icons">add</i></a>

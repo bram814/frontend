@@ -158,8 +158,10 @@ export default function Producto() {
                                                                 <div className="collapsible-header ul-vehicle"><i className="material-icons">receipt</i>Productos: </div>
                                                                 <div className="collapsible-body">
                                                                     <span>
-                                                                        <strong>Id de Reseña:</strong> <br /><br />
-                                                                        <strong>Descripción:</strong><br />
+                                                                        <strong>Id de Producto:</strong> <br /><br />
+                                                                        <strong>Nombre:</strong><br />
+                                                                        <strong>Stock:</strong><br />
+                                                                        <strong>SKU:</strong><br />
                                                                         {/* {i.resenia} */}
                                                                     </span></div>
                                                             </li>
